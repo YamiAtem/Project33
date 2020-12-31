@@ -65,7 +65,7 @@ function draw() {
   displayDivisons();
 
   // display particles
-  if (particle !== null) {
+  if (particle != null) {
     particle.display();
 
     if (particle.body.position.y > 760) {
