@@ -61,9 +61,6 @@ function draw() {
   //displaying plinkos
   displayPlinkos();
 
-  // dipplaying divisions
-  displayDivisons();
-
   // display particles
   if (particle != null) {
     particle.display();
@@ -92,6 +89,9 @@ function draw() {
       }
     }
   }
+  
+  // displaying divisions
+  displayDivisons();
 
   if ( gameState == "end") {
     textSize(100);
